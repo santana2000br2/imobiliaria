@@ -1,0 +1,153 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 60px;
+    background-color: #afddfb;
+    font-family:Tahoma;
+    font-size: 18px;
+    
+}
+.menu a{
+    text-decoration: underline;
+    color: #1d1d1d;
+    padding: 10px 20px;
+    font-size: 18px;
+    
+}
+.menu img{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.banner{
+    
+    display: flex;           /* ativa o Flexbox */
+    justify-content: center; /* alinha no eixo horizontal */
+    align-items: center;     /* alinha no eixo vertical */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.telefones{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    
+}
+.sobre{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 18px
+
+}
+.sobre h2{
+    color:#1d80c1;
+    font-weight: normal;
+        
+}
+
+.sobre img{
+    width: 50%;     /* 50% do tamanho do contêiner pai */
+    height: auto;
+}
+span{
+    color: #1d80c1;
+}
+.servicos{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    background-color: #1d80c1;
+    color: #ffff ;
+    font-family: Tahoma;
+    line-height: 28px;
+    
+    
+}
+.servicos ul{
+  width: 200px;
+  margin: 0 auto;
+  padding-left: 40px;
+  text-align: left;
+}
+
+
+.servicos span{
+    color: yellow;
+    font-weight: bold;
+}
+.servicos .textodelimitado p{
+    width: 700px;         
+    line-height: 1.6;     
+    text-align: justify;
+    margin: auto; 
+}
+
+.corretores{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    
+}
+.corretores h2{
+    color: #1d80c1 ;
+    font-weight: bold;
+}
+
+.corretores img{
+     width: 50%;     /* 50% do tamanho do contêiner pai */
+    height: auto;
+}
+
+
+.corretores span{
+    color:#1d80c1;
+    font-weight: bold;
+}
+.contato {
+  background-color: #1d80c1;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 18px;
+}
+
+.contato p {
+  background-color: black;
+  color: #fff;
+  font-family: tahoma;
+  font-size: 18px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.contato-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* um embaixo do outro */
+  align-items: center;     /* centraliza horizontalmente */
+  gap: 15px;
+}
+
+.contato-links a {
+  background-color: #fff;
+  color: #1d80c1;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: underline;
+  font-weight: bold;
+  width: fit-content;
+  
+}
+
+
+
+
